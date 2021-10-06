@@ -1,7 +1,6 @@
 # 🔑 ward
-A Discord verification bot using reCAPTCHA v2. 
+A Discord verification bot using hCAPTCHA. 
 
-[![Run on Repl.it](https://repl.it/badge/github/nates/ward)](https://repl.it/@nates3/ward)
 ## 🧳 Requirements
 * node.js (v16 minimum)
 
@@ -30,3 +29,5 @@ If you have `privileged-intents` set to `true` in the config, you must go to you
 ## 📷 Preview
 ![Embed](https://i.imgur.com/zomEnpw.png)
 ![Website](https://i.imgur.com/tmrcyjF.png)
+
+Credits: https://github.com/nates/ward
