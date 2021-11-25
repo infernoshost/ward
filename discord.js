@@ -14,6 +14,18 @@ const logger = new Signale({ scope: 'Discord' });
 
 // Function to start the Discord bot
 function main() {
+
+    console.log("\n")
+    console.log(`(_)      / _|                         `)
+    console.log(` _ _ __ | |_ ___ _ __ _ __   ___  ___ `)
+    console.log(`| | '_ \|  _/ _ \ '__| '_ \ / _ \/ __|`)
+    console.log(`| | | | | ||  __/ |  | | | | (_) \__ \`)
+    console.log(`|_|_| |_|_| \___|_|  |_| |_|\___/|___/`)
+
+
+
+
+
     logger.info('Logging in...');
     client.login(config.discord.token).catch(() => {
         logger.fatal('Failed to login! Is your intents enabled?');
